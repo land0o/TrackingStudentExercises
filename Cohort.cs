@@ -14,6 +14,8 @@ namespace StudentExercises
         public CreateCohort(string name)
         {
             CohortName = name;
+            Student = new List<CreateStudent>();
+            Instructor = new List<CreateInstructor>();
         }
 
     }

@@ -40,7 +40,15 @@ namespace StudentExercises
             Jenna.AssignExercise(CsharpIntro, Quin);
 
             //Create a list of students. Add all of the student instances to it.
-            // CreateCohort.Student.Add(Amber);
+                Cohort33.Student.Add(Amber);
+                Cohort34.Student.Add(Allie);
+                Cohort34.Student.Add(Mike);
+                Cohort35.Student.Add(Quin);
+
+            //Create a list of exercises. Add all of the exercise instances to it.
+
+            //Generate a report that displays which students are working on which exercises.
+
         }
     }
 }
