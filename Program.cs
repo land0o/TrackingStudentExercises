@@ -18,6 +18,11 @@ namespace StudentExercises
             CreateCohort Cohort33 = new CreateCohort("Cohort 33");
             CreateCohort Cohort34 = new CreateCohort("Cohort 34");
             CreateCohort Cohort35 = new CreateCohort("Cohort 35");
+            List<CreateCohort> cohorts = new List<CreateCohort>(){
+                Cohort33,
+                Cohort34,
+                Cohort35
+            };
 
             //Create 4, or more, students and assign them to one of the cohorts.
             CreateStudent Amber = new CreateStudent("Amber", "Gooch", "CodeDr", Cohort33);
@@ -97,7 +102,7 @@ namespace StudentExercises
             List<CreateStudent> studentsABC = Students.OrderBy(Student => Student.LastName).ToList();
             foreach (var l in studentsABC)
             {
-                 Console.WriteLine(l.LastName);
+                Console.WriteLine(l.LastName);
             }
             //Display any students that aren't working on any exercises (Make sure one of your student instances don't have any exercises. Create a new student if you need to.)
             List<CreateStudent> studentsWithNoWork = Students.Where(Student => Student.StudentCurrentExercise.Count == 0).ToList();
@@ -106,7 +111,11 @@ namespace StudentExercises
                 Console.WriteLine(zeroWork);
             }
             //Which student is working on the most exercises? Make sure one of your students has more exercises than the others.
+
             //How many students in each cohort?
+            Console.WriteLine($"{Cohort33.Student.Count}");
+            Console.WriteLine($"{Cohort34.Student.Count}");
+            Console.WriteLine($"{Cohort35.Student.Count}");
 
         }
     }
