@@ -13,17 +13,18 @@ namespace StudentExercises
 
         public List<CreateExercise> StudentCurrentExercise = new List<CreateExercise>();
 
-        public void AddExercise(CreateExercise exercise) {
+        public void AddExercise(CreateExercise exercise)
+        {
             StudentCurrentExercise.Add(exercise);
         }
-            // constructor
-        public CreateStudent(string _firstName, string _lastName, string _slackHandle, CreateCohort Cohort )
+        // constructor
+        public CreateStudent(string _firstName, string _lastName, string _slackHandle, CreateCohort Cohort)
         {
             FirstName = _firstName;
             LastName = _lastName;
             SlackHandle = _slackHandle;
             StudentCohort = Cohort;
         }
-        
+
     }
 }

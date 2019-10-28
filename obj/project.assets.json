@@ -13,19 +13,21 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marla\\workspace\\c#\\StudentExercises\\StudentExercises.csproj",
+      "projectUniqueName": "C:\\Users\\marla\\workspace\\c#\\BookWork\\StudentExercises\\StudentExercises.csproj",
       "projectName": "StudentExercises",
-      "projectPath": "C:\\Users\\marla\\workspace\\c#\\StudentExercises\\StudentExercises.csproj",
+      "projectPath": "C:\\Users\\marla\\workspace\\c#\\BookWork\\StudentExercises\\StudentExercises.csproj",
       "packagesPath": "C:\\Users\\marla\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marla\\workspace\\c#\\StudentExercises\\obj\\",
+      "outputPath": "C:\\Users\\marla\\workspace\\c#\\BookWork\\StudentExercises\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marla\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\marla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
