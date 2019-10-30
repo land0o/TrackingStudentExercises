@@ -30,7 +30,7 @@ namespace StudentExercises
             CreateStudent Mike = new CreateStudent("Mike", "Stiles", "MovieBuff", Cohort34);
             CreateStudent Quin = new CreateStudent("Quin", "Smith", "TallDev", Cohort35);
             CreateStudent Rob = new CreateStudent("Rob", "Smith", "LDev", Cohort35);
-
+                
             //Create 3, or more, instructors and assign them to one of the cohorts. 
             CreateInstructor Jenna = new CreateInstructor("Jenna", "Solis", "SolisOne", Cohort34, "Game of Thrones");
             CreateInstructor Steve = new CreateInstructor("Steve", "Smith", "Coach", Cohort33, "Depends");
